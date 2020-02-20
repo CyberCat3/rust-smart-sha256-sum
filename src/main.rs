@@ -52,7 +52,7 @@ fn main() {
     } else {
         println!("Checksums file doesn't contain a checksum for this file. Adding...");
 
-        format!("{}  {}\n{}\n", hash, source_path, checksums_content)
+        format!("{}  {}\n{}", hash, source_path, checksums_content)
 
     };
 
